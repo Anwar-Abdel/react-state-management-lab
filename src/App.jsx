@@ -1,3 +1,6 @@
+import { useState, useEffect } from "react";
+import './index.css'
+import './App.css'
 const App = () => {
   const [team, setTeam] = useState([]);
   const [money, setMoney] = useState(100);
