@@ -1,5 +1,3 @@
-import React, { useState, useEffect } from 'react';
-
 const App = () => {
   const [team, setTeam] = useState([]);
   const [money, setMoney] = useState(100);
